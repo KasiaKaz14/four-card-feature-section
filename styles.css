@@ -1,0 +1,35 @@
+:root {
+  --main-font-family: "Poppins", sans-serif;
+  --primary-font-size: 15px;
+  --first-paragraph-font-color: hsl(229, 6%, 66%);
+  --paragraph-font-color: hsl(0, 0%, 98%);
+  --title-font-color: hsl(234, 12%, 34%);
+  --supervisor-border-color: hsl(180, 62%, 55%);
+  --teambuilder-border-color: hsl(0, 78%, 62%);
+  --karma-border-color: hsl(34, 97%, 64%);
+  --calculator-border-color: hsl(212, 86%, 64%);
+  --main-bgcolor: #fff;
+  -webkit-box-shadow: 0px 10px 25px -9px rgba(134, 168, 188, 1);
+  -moz-box-shadow: 0px 10px 25px -9px rgba(134, 168, 188, 1);
+  box-shadow: 0px 10px 25px -9px rgba(134, 168, 188, 1);
+}
+
+body {
+  background-color: var(--main-bgcolor);
+}
+
+.main-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 375px;
+  border: none;
+  margin: 0 auto;
+  @media screen and (min-width: 768px) {
+    width: 520px;
+  }
+}
+
+.title {
+  color: var(--title-font-color);
+}
