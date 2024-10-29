@@ -1,8 +1,8 @@
 :root {
   --main-font-family: "Poppins", sans-serif;
   --primary-font-size: 15px;
-  --first-paragraph-font-color: hsl(229, 6%, 66%);
-  --paragraph-font-color: hsl(0, 0%, 98%);
+  --paragraph-font-color: hsl(229, 6%, 66%);
+  --paragraph-font-colornd: hsl(0, 0%, 98%);
   --title-font-color: hsl(234, 12%, 34%);
   --supervisor-border-color: hsl(180, 62%, 55%);
   --teambuilder-border-color: hsl(0, 78%, 62%);
@@ -16,6 +16,7 @@
 
 body {
   background-color: var(--main-bgcolor);
+  font-family: var(--main-font-family);
 }
 
 .main-section {
@@ -30,6 +31,22 @@ body {
   }
 }
 
+.main-paragraph {
+  color: var(--title-font-color);
+  margin: 0;
+  margin-top: 60px;
+}
+
 .title {
   color: var(--title-font-color);
+  margin: 0;
+  margin-top: 5px;
+}
+
+.main-description {
+  color: var(--paragraph-font-color);
+}
+
+.sections-description {
+  color: var(--paragraph-font-color);
 }
