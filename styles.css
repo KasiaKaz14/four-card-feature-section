@@ -5,17 +5,16 @@
   --light-font-weight: 200;
   --primary-font-size: 15px;
   --paragraph-font-color: hsl(229, 6%, 66%);
-  --paragraph-font-colornd: hsl(0, 0%, 98%);
+  --bg-color: hsl(0, 0%, 98%);
   --title-font-color: hsl(234, 12%, 34%);
   --supervisor-border-color: hsl(180, 62%, 55%);
   --teambuilder-border-color: hsl(0, 78%, 62%);
   --karma-border-color: hsl(34, 97%, 64%);
   --calculator-border-color: hsl(212, 86%, 64%);
-  --main-bgcolor: #fff;
 }
 
 body {
-  background-color: var(--main-bgcolor);
+  background-color: var(--bg-color);
   font-family: var(--main-font-family);
   font-size: var(--primary-font-size);
 }
