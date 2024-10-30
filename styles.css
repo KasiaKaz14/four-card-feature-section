@@ -159,8 +159,6 @@ body {
 
 .third-section {
   border-top: 6px solid var(--karma-border-color);
-  @media screen and (min-width: 768px) {
-  }
 }
 
 .fourth-section {
