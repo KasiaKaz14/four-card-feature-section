@@ -1,5 +1,8 @@
 :root {
   --main-font-family: "Poppins", sans-serif;
+  --bold-font-weight: 600;
+  --mid-font-weight: 400;
+  --light-font-weight: 200;
   --primary-font-size: 15px;
   --paragraph-font-color: hsl(229, 6%, 66%);
   --paragraph-font-colornd: hsl(0, 0%, 98%);
@@ -9,14 +12,12 @@
   --karma-border-color: hsl(34, 97%, 64%);
   --calculator-border-color: hsl(212, 86%, 64%);
   --main-bgcolor: #fff;
-  -webkit-box-shadow: 0px 10px 25px -9px rgba(134, 168, 188, 1);
-  -moz-box-shadow: 0px 10px 25px -9px rgba(134, 168, 188, 1);
-  box-shadow: 0px 10px 25px -9px rgba(134, 168, 188, 1);
 }
 
 body {
   background-color: var(--main-bgcolor);
   font-family: var(--main-font-family);
+  font-size: var(--primary-font-size);
 }
 
 .main-section {
@@ -33,20 +34,107 @@ body {
 
 .main-paragraph {
   color: var(--title-font-color);
+  font-weight: var(--light-font-weight);
   margin: 0;
   margin-top: 60px;
+  font-size: 29px;
 }
 
 .title {
   color: var(--title-font-color);
+  font-weight: var(--bold-font-weight);
   margin: 0;
   margin-top: 5px;
+  font-size: 29px;
+}
+
+.second-title {
+  font-weight: var(--bold-font-weight);
+  margin: 0;
+  margin-top: 30px;
+  margin-left: 30px;
+  font-size: 26px;
 }
 
 .main-description {
   color: var(--paragraph-font-color);
+  font-size: 18px;
 }
 
 .sections-description {
   color: var(--paragraph-font-color);
+  margin: 0;
+  margin-top: 10px;
+  margin-left: 30px;
+}
+
+.supervisor-desc {
+  width: 290px;
+}
+
+.tb-desc {
+  width: 286px;
+}
+
+.karma-desc {
+  width: 270px;
+}
+
+.calc-desc {
+  width: 260px;
+}
+
+.four-card-sections {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin: 0;
+  margin-top: 65px;
+}
+
+.four-card-section {
+  width: 400px;
+  height: 260px;
+  border-radius: 15px;
+  -webkit-box-shadow: 0px 10px 25px -9px rgba(134, 168, 188, 1);
+  -moz-box-shadow: 0px 10px 25px -9px rgba(134, 168, 188, 1);
+  box-shadow: 0px 10px 25px -9px rgba(134, 168, 188, 1);
+}
+
+.first-section {
+  border-top: 6px solid var(--supervisor-border-color);
+}
+
+.second-section {
+  border-top: 6px solid var(--teambuilder-border-color);
+}
+
+.third-section {
+  border-top: 6px solid var(--karma-border-color);
+}
+
+.fourth-section {
+  border-top: 6px solid var(--calculator-border-color);
+}
+
+.icon {
+  width: 75px;
+  margin: 0;
+  margin-left: 295px;
+}
+
+.supervisor-icon {
+  margin-top: 33px;
+}
+
+.teambuilder-icon {
+  margin-top: 30px;
+}
+
+.karma-icon {
+  margin-top: 30px;
+}
+
+.calculator-icon {
+  margin-top: 35px;
 }
